@@ -3,24 +3,50 @@
           background-repeat: repeat;
           background-size: cover;
           height: vh;
+          color: #fff;
 }
+.nav {
+  display: none;
+}
+
 .col-md-4{
      margin-left: 35%;
      margin-right: 35%;
      height: vh;
+     margin-bottom: 0;
 }
-
-.row {
-  margin: 5%
+#happyhour{
+  background-color: #dcdcdc;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+#partytime {
+  background-color: #F15A29;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 
+}
+.row img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.party p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .col-md-6{
        margin: 0;
        padding: 0;
 }
 .col-md-6 img{
-  border-left: solid 20px 	#DCDCDC;
-  border-right: solid 20px 	#DCDCDC;
+  border-left: solid 20px;
+  border-right: solid 20px;
 
 }
 #drinks{
@@ -43,19 +69,13 @@
   height: vh;
 }
 
-.col-md-3 {
-         background-color: #DCDCDC;
-         margin-top: 10px;
-         border-right: solid 1px #000;
-         border-bottom: solid 1px #000;
-         border-radius: 5px;
 
 }
 .email {
-    background-image: url(../images/backgrounds/subscribe.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-    height: vh;
+        background-image: url(../images/backgrounds/subscribe.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        height: vh;
 }
 .email h3 {
   color: #fff;
