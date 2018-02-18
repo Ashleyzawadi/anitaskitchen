@@ -18,3 +18,36 @@
        margin: 0;
        padding: 0;
 }
+.col-md-6 img{
+  border-left: solid 20px 	#DCDCDC;
+  border-right: solid 20px 	#DCDCDC;
+
+}
+#drinks{
+  border-top: solid 20px 	#DCDCDC;
+  border-bottom: solid 20px 	#DCDCDC;
+  border-left: 0;
+  border-right: 0;
+}
+
+.nav-item{
+          color: #F15A29;
+          border: solid 2px #F15A29;
+          padding: 7px;
+          margin: 20px;
+}
+.gallery {
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: vh;
+}
+
+.col-md-3 {
+         background-color: #DCDCDC;
+         margin-top: 10px;
+         border-right: solid 1px #000;
+         border-bottom: solid 1px #000;
+         border-radius: 5px;
+
+}
