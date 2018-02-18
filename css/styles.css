@@ -16,7 +16,7 @@
      margin-bottom: 0;
 }
 #happyhour{
-  background-color: #dcdcdc;
+  background-color: #DCDCDC;
   height: 50%;
   margin: 0;
   padding: 0;
@@ -35,25 +35,18 @@
   padding: 0;
   border: 0;
 }
-.party p{
-  margin: 0;
-  padding: 0;
-  border: 0;
+.article {
+  margin: 5%;
 }
 .col-md-6{
        margin: 0;
        padding: 0;
 }
-.col-md-6 img{
-  border-left: solid 20px;
-  border-right: solid 20px;
-
-}
-#drinks{
-  border-top: solid 20px 	#DCDCDC;
-  border-bottom: solid 20px 	#DCDCDC;
-  border-left: 0;
-  border-right: 0;
+.customer {
+  margin: 8%;
+  padding: 8%;
+  border: inset 10px #fff;
+  border-style: groove;
 }
 
 .nav-item{
@@ -62,21 +55,42 @@
           padding: 7px;
           margin: 20px;
 }
+
 .gallery {
   background-image: url(../images/backgrounds/foodsBg.jpg);
   background-repeat: repeat;
   background-size: cover;
-  height: vh;
 }
 
+.row p h3 h2 a {
+  margin: 10%;
+}
 
 }
+.gallery h3 {
+  background-color: #DCDCDC;
+  margin-top:1%;
+  border-left: solid 0.5px #000;
+  border-right: solid 0.5px #000;
+}
+
+.customer{
+       background-color: #fff;
+}
+
 .email {
-        background-image: url(../images/backgrounds/subscribe.jpg);
-        background-repeat: repeat;
-        background-size: cover;
-        height: vh;
+  background-image: url(../images/backgrounds/subscribe.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 5%;
+  color: #fff;
 }
+.subscribe{
+  display:inline-block;
+  margin: 5%;
+  border-radius: 10px;
+}
+
 .email h3 {
   color: #fff;
 }
@@ -85,4 +99,11 @@ button {
 }
 .footer {
   background-color:  #F15A29;
+  color: #fff;
+}
+#links {
+  margin-left: 30%;
+  margin-right: 30%;
+  color: #fff;
+
 }
